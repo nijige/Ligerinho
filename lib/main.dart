@@ -51,29 +51,6 @@ class HomePage extends StatelessWidget {
                       fontFamily: "Big Shoulders Display",
                     ),
                     textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(30),
-                    height: 60,
-                    width: double.infinity,
-                    decoration:
-                        BoxDecoration(borderRadius: BorderRadius.circular(60)),
-                    child: ElevatedButton(
-                      style: ButtonStyle(
-                          backgroundColor:
-                              MaterialStateProperty.all<Color>(Colors.white)),
-                      child: Text(
-                        "Calcular Novamente",
-                        style: TextStyle(
-                            color: Theme.of(context).primaryColor,
-                            fontSize: 25,
-                            fontFamily: "Big Shoulders Display"),
-                      ),
-                      onPressed: () {},
-                    ),
                   )
                 ],
               ),
