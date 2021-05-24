@@ -5,12 +5,9 @@ class Input extends StatelessWidget {
   var label = "";
   var ctrl = new MoneyMaskedTextController();
 
-  Input ({
+  Input({
     @required this.label,
     @required this.ctrl,
-
-
-
   });
 
   @override

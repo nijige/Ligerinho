@@ -40,7 +40,7 @@ class LoadingButton extends StatelessWidget {
                 text,
                 style: TextStyle(
                     color:
-                        invert ? Colors.white : Theme.of(context).primaryColor,
+                        invert ? Colors.black : Theme.of(context).primaryColor,
                     fontSize: 25,
                     fontFamily: "Big Shoulders Display"),
               ),
